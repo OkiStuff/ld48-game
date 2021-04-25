@@ -379,7 +379,7 @@ MUZZLE_SRC_PATHS = $(MUZZLE_PATH)/Muzzle/core/*.c $(MUZZLE_PATH)/Muzzle/textures
 
 # Project target defined by PROJECT_NAME
 $(PROJECT_NAME): $(OBJS)
-	$(CC) Applet.c $(MUZZLE_SRC_PATHS) -o build/$(PROJECT_NAME)$(EXT) $(CFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM)
+	$(CC) Applet.c  drawing/*.c $(MUZZLE_SRC_PATHS) -o build/$(PROJECT_NAME)$(EXT) $(CFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM)
 
 # Compile source files
 # NOTE: This pattern will compile every module defined on $(OBJS)

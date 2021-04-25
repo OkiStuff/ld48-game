@@ -36,6 +36,14 @@
 		"raylib.h": "c",
 		"screens.h": "c",
 		"windows.h": "c",
-		"sprite2d.h": "c"
+		"sprite2d.h": "c",
+		"commands.h": "c",
+		"room.h": "c",
+		"stdlib.h": "c",
+		"sstream": "c",
+		"cstring": "c",
+		"dragon.h": "c",
+		"util.h": "c",
+		"time.h": "c"
 	}
 }
